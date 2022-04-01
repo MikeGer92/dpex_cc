@@ -1,0 +1,28 @@
+{
+  "name": "dpex",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@meforma/vue-toaster": "^1.2.2",
+    "@nuxtjs/axios": "^5.13.1",
+    "core-js": "^3.8.3",
+    "nuxt": "^2.15.7",
+    "swiper": "^5.4.5",
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-js-modal": "^2.0.1",
+    "vue-loading-overlay": "3",
+    "vue-select": "^3.13.0",
+    "vue-toastification": "^1.7.11",
+    "vue-yandex-maps": "^0.10.12"
+  },
+  "devDependencies": {
+    "less": "^3.12.2",
+    "less-loader": "^7.1.0"
+  }
+}
