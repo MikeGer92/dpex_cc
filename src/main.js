@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Vuelidate from 'vuelidate';
+import Paginate from 'vuejs-paginate'
 import App from './App.vue';
 import './registerServiceWorker';
 import router from './router';
@@ -22,6 +23,7 @@ Vue.filter('date', dateFilter);
 Vue.filter('currency', currencyFilter);
 Vue.directive('tooltip', tooltip)
 Vue.component('Loader', Loader);
+Vue.component('Paginate', Paginate)
 // const firebaseConfig = {
 //   apiKey: "AIzaSyBeT2TZV1xTJZ4D_Ny8nSdAMNiK9unr69s",
 //   authDomain: "newvuecrm.firebaseapp.com",
